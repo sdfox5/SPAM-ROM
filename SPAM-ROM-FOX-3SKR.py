@@ -229,4 +229,4 @@ def run(host, port):
 ####################################
 if __name__ == "__main__":
 #    threading.Thread(target=menu, daemon=True).start()
-    run("127.0.0.1", 1080)
+    run("127.0.0.1", 3000)
