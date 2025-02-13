@@ -510,10 +510,6 @@ def exchange_loop(client, remote, port):
             print(f"General error in exchange_loop: {e}")
             break
 ####################################
-                if client.send(dataS) <= 0:
-                    pass
-    except Exception as e:
-        print(f"ERROR IN exchange_loop: {e}")
 #############START BOT###############
 def run(host, port):
     try:
