@@ -446,7 +446,7 @@ def serverlog(address, port):
 def exchange_loop(client, remote, port):
     global spamm
     global pack, op, clientC
-    if port == 39699:
+    if port == 39698:
         clientC = client
         op = client
     while True:
