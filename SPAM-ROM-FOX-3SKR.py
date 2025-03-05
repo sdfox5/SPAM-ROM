@@ -60,8 +60,8 @@ def Encrypt_ID(id):
 ####################################
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 ####################################
-username = "bot"
-password = "bot"
+username = "username"
+password = "password"
 SOCKS5_VERSION = 5
 server_list = []
 op = None
@@ -1099,4 +1099,4 @@ def run(host, port):
     except Exception as e:
         print(f"ERROR IN run: {e}")
 if __name__ == "__main__":
-    run("127.0.0.1", )
+    run("127.0.0.1", 3000)
